@@ -15,6 +15,7 @@ user_token_dic = {
     , 'user08': '3d0c7ff2ad3063bc0e93befeef895def90290114ee590ca09b60f8e4476aca27'
     , 'user09': 'a0a9941e29cebdd732a2a57411f14d45e14bc3061d66c2e1c30eca421ed0b02d'
     , 'user10': '34467677a88fc7966807c26ced0972cc775be9e6983d4bfbd2a0981a4350dcfd'
+    , 'user11': '34467677a88fc7966807c26ced0972cc775be9e6983d4bfbd2a0981a4350dcfd'
 }
 menu_json = {
     "code": "200",
