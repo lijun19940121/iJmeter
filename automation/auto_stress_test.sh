@@ -41,8 +41,8 @@ do
     fi
 
     # JMeter 静默压测
-    nohup ${jmeter_path}/bin/jmeter -n -t ${jmx_filename} -l ${jtl_filename} &
-    sleep 65
+    # nohup ${jmeter_path}/bin/jmeter -n -t ${jmx_filename} -l ${jtl_filename} &
+    nohup ${JMETER_PATH}/bin/jmeter -n -t ${jmx_filename} -l ${jtl_filename} & sleep 65
     killJMeter
     rm -f ${jmx_filename}
 done
